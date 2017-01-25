@@ -1,6 +1,5 @@
 
 build:
-	mkdir -p plugins
 	docker build -t docker2humio .
 
 
