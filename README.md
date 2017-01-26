@@ -3,7 +3,7 @@
 
 Ship all your container logs to humio.
 
-This [image](https://hub.docker.com/r/pmech/docker2humio/) ([on GitHub](https://github.com/pmech/docker2humio)) is a custom version of the standard [fluentd](https://hub.docker.com/r/fluent/fluentd/) image.  It is configured to ship all container logs from a Docker host to Humio.
+This [image](https://hub.docker.com/r/pmech/docker2humio/) ([GitHub](https://github.com/pmech/docker2humio)) is a custom version of the standard [fluentd](https://hub.docker.com/r/fluent/fluentd/) image.  It is configured to ship all container logs from a Docker host to Humio.
 
 To use it just run the shipper image and configure all application containers on the host to use the fluentd log-driver. Also set the parser if the default parser does not fit your needs.
 
