@@ -6,8 +6,7 @@ To use it run the image on all Docker hosts where you wan container logs and sta
 
 ## docker2humio
 
-To run the image set the env. variables: HUMIO_HOST, HUMIO_TOKEN, and
-HUMIO_DATASPACE.
+To run the image set the env. variables: HUMIO_HOST, HUMIO_TOKEN, and HUMIO_DATASPACE.
 
 Example
 ```
@@ -16,8 +15,7 @@ Example
 
 ## Containers
 
-To enable log shipping for a container just use the fluentd log-driver
-and set the parser with the env. log option.
+To enable log shipping for a container just use the fluentd log-driver and set the parser with the env. log option.
 
 Example
 ```
