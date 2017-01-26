@@ -1,6 +1,6 @@
 # How to use docker2humio
 
-This [image](https://github.com/pmech/docker2humio GitHub Repository)
+This [image](https://github.com/pmech/docker2humio "GitHub Repository")
 is a custom version of the standard
 [fluentd](https://hub.docker.com/r/fluent/fluentd/) image.  It is
 configured to ship all container logs from a Docker host to Humio.
