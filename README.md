@@ -11,7 +11,7 @@ HUMIO_DATASPACE.
 
 Example
 ```
-  $> docker run -d --restart always -p 24224:24224 --name docker2humio -e HUMIO_HOST=https://cloud.humio.com:443 -e HUMIO_TOKEN=<INGEST_TOKEN> -e HUMIO_DATASPACE=<DATASPACE> docker2humio
+  $> docker run -d --restart always -p 24224:24224 --name docker2humio -e HUMIO_HOST=https://cloud.humio.com:443 -e HUMIO_TOKEN=<INGEST_TOKEN> -e HUMIO_DATASPACE=<DATASPACE> pmech/docker2humio
 ```
 
 ## Containers
