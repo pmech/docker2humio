@@ -1,14 +1,8 @@
 # How to use docker2humio
 
-This [image](https://hub.docker.com/r/pmech/docker2humio/) ([on
-GitHub](https://github.com/pmech/docker2humio)) is a custom version of
-the standard [fluentd](https://hub.docker.com/r/fluent/fluentd/)
-image.  It is configured to ship all container logs from a Docker host
-to Humio.
+This [image](https://hub.docker.com/r/pmech/docker2humio/) ([on GitHub](https://github.com/pmech/docker2humio)) is a custom version of the standard [fluentd](https://hub.docker.com/r/fluent/fluentd/) image.  It is configured to ship all container logs from a Docker host to Humio.
 
-To use it run the image on all Docker hosts where you wan container
-logs and start all containers with the fluentd log-driver and probably
-also set the parser Humio should use to parse the logs.
+To use it run the image on all Docker hosts where you wan container logs and start all containers with the fluentd log-driver and probably also set the parser Humio should use to parse the logs.
 
 ## docker2humio
 
