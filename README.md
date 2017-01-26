@@ -4,6 +4,7 @@ This [image](https://hub.docker.com/r/pmech/docker2humio/) ([on GitHub](https://
 
 To use it run the image on all Docker hosts where you wan container logs and start all containers with the fluentd log-driver and probably also set the parser Humio should use to parse the logs.
 
+
 ## docker2humio
 
 To run the image set the env. variables: HUMIO_HOST, HUMIO_TOKEN, and HUMIO_DATASPACE.
