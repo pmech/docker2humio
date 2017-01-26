@@ -10,7 +10,7 @@ To run the image set the env. variables: HUMIO_HOST, HUMIO_TOKEN, and HUMIO_DATA
 
 Example
 ```
-  $> docker run -d --restart always -p 24224:24224 --name docker2humio -e HUMIO_HOST=https://cloud.humio.com:443 -e HUMIO_TOKEN=<INGEST_TOKEN> -e HUMIO_DATASPACE=<DATASPACE> pmech/docker2humio
+  $> docker run -p 24224:24224 -e HUMIO_HOST=https://cloud.humio.com:443 -e HUMIO_TOKEN=<INGEST_TOKEN> -e HUMIO_DATASPACE=<DATASPACE> pmech/docker2humio
 ```
 
 ## Containers
@@ -19,5 +19,5 @@ To enable log shipping for a container just use the fluentd log-driver and set t
 
 Example
 ```
-  $> docker run -d --log-driver=fluentd --log-opt env=parser -e parser=<HUMIO_PARSER> <YOUR_IMAGE>
+  $> docker run --log-driver=fluentd --log-opt env=parser -e parser=<HUMIO_PARSER> <YOUR_IMAGE>
 ```
