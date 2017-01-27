@@ -1,5 +1,6 @@
 
-# docker2humio - log shipper image
+docker2humio - log shipper image
+================================
 
 Ship all your container logs to humio.
 
@@ -8,7 +9,8 @@ This [image](https://hub.docker.com/r/pmech/docker2humio/) ([GitHub](https://git
 To use it just run the shipper image and configure all application containers on the host to use the fluentd log-driver. Also set the parser if the default parser does not fit your needs.
 
 
-## Setup log shipper - docker2humio
+Setup log shipper - docker2humio
+--------------------------------
 
 To run the shipper image set the env. variables: HUMIO_HOST, HUMIO_TOKEN, and HUMIO_DATASPACE.
 
@@ -18,7 +20,8 @@ Example
 ```
 
 
-## Configure Application Containers
+Configure Application Containers
+--------------------------------
 
 To enable log shipping for a container just use the fluentd log-driver and set the parser with the env. log option, then the shipper container will do the rest.
 
