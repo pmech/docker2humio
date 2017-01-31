@@ -1,8 +1,11 @@
 
-docker2humio - log shipper image
-================================
+docker2humio - Humio log shipper image
+======================================
 
 Ship all your container logs to humio.
+
+Overview
+--------
 
 This [image](https://hub.docker.com/r/pmech/docker2humio/) ([GitHub](https://github.com/pmech/docker2humio)) is a custom version of the standard [fluentd](https://hub.docker.com/r/fluent/fluentd/) image.  It is configured to ship all container logs from a Docker host to Humio.
 
