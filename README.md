@@ -1,6 +1,11 @@
 
-docker2humio - Humio log shipper image
-======================================
+**This repo is deprecated!**
+
+**Use this: https://docs.humio.com/integrations/platform-integrations/docker/ instead!**
+
+
+Deprecated! docker2humio - Humio log shipper image
+==================================================
 
 Ship all your container logs to humio.
 
